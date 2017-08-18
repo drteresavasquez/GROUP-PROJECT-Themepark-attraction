@@ -1,0 +1,21 @@
+{
+  "name": "modules",
+  "version": "0.1.0",
+  "devDependencies": {
+    "firebase": "^4.3.0",
+    "grunt": "^0.4.0",
+    "grunt-browserify": "^5.1.0",
+    "grunt-contrib-jshint": "^0.11.2",
+    "grunt-contrib-sass": "^0.9.2",
+    "grunt-contrib-watch": "^0.6.1",
+    "jquery": "^3.2.1",
+    "matchdep": "^0.3.0"
+  },
+  "dependencies": {
+    "bootstrap": "^4.0.0-beta",
+    "handlebars": "^4.0.6",
+    "hbsfy": "^2.7.0",
+    "jquery-timepicker": "^1.3.3",
+    "moment": "^2.18.1"
+  }
+}

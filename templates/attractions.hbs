@@ -1,0 +1,15 @@
+<div id="singleOutput">
+<p><a class="attractionName" href="#">{{name}}</a> <br><span class="attrType">({{attraction_type}})</span></p>
+<div class="hidden">
+{{!-- <h5>({{attraction_type}})</h5> --}}
+<p class="areaName">Where: {{area_name}}<br><br>
+<button type="button" class="btn btn-sm" id="addBtn-{{id}}" href="#">Add to Itinerary</button><br><br>
+{{#if times}}When:
+	{{#each times}}
+	[{{this}}]
+	{{/each}}
+{{/if}}
+</p>
+<p class="description">{{description}}</p></div>
+
+
